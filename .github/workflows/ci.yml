@@ -1,16 +1,16 @@
 name: CI Build for Main Branch & PRs
 
 on:
-  push:
-    branches:
-      - main
-      - master  # Adjust if your default branch has a different name
-    tags:
-      - 'v*' # Trigger on version tags like v1.0.0, v0.1.0-beta, etc.
-  pull_request:
-    branches:
-      - main
-      - master  # Adjust if your default branch has a different name
+  #push:
+  #  branches:
+  #    - main
+  #    - master  # Adjust if your default branch has a different name
+  #  tags:
+  #    - 'v*' # Trigger on version tags like v1.0.0, v0.1.0-beta, etc.
+  #pull_request:
+  #  branches:
+  #    - main
+  #    - master  # Adjust if your default branch has a different name
 
 jobs:
   build_tauri_desktop_ci:
