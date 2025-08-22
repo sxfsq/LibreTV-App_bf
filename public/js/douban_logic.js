@@ -41,7 +41,7 @@ async function fetchAndCacheDoubanData(cacheKey, fetchFn, ...fetchArgs) {
 }
 
 // Global state variables related to Douban functionality
-window.defaultMovieTags = ['热门', '最新', '经典', '豆瓣高分', '冷门佳片', '华语', '欧美', '韩国', '日本', '动作', '喜剧', '爱情', '科幻', '悬疑', '恐怖','女优明星', '韩国主播', '欧美无码', '治愈'];
+window.defaultMovieTags = ['热门', '最新', '经典', '豆瓣高分', '冷门佳片', '华语', '欧美', '韩国', '日本', '动作', '喜剧', '爱情', '科幻', '悬疑', '恐怖','治愈'];
 window.defaultTvTags = ['热门', '美剧', '英剧', '韩剧', '日剧', '国产剧', '港剧', '日本动画', '综艺', '纪录片'];
 
 window.movieTags = [];
